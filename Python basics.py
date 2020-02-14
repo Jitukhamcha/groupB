@@ -59,3 +59,72 @@ print(2**2)    #square
 print(3**3)    #cubic
 
 print ("Group B  "* 10)
+
+
+
+
+#---------------------------------------
+
+string1 =" hello world"
+
+print(string1.upper())
+print(string1.lower())
+
+af = string1.split(" ")
+print(af)
+
+#---------------------------------------
+
+#conditions
+
+a= 5
+print(a==5)
+print(a==9)
+print(a>9)
+
+
+#----------------------------------------
+
+
+#Boolean operators
+
+
+name = "Bill"
+age = 22
+if name == "Bill" and age == 22:
+    print("Your name is Bill and you are 22 years old.")
+
+if name == "Bill" or name == "Jack":
+    print("Your name is either Bill or Jack.")
+
+
+#in operator
+
+nam= "Bill"
+
+if nam in ["Bill","Jack"]:
+    print("you are either BIll or Jack")
+    
+    
+#if statement
+
+if age==22:
+    print("age is 22")
+    
+else:
+    print("age is not 22")
+    
+    
+#is operator
+
+
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
+
+
+#not operator
+
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
